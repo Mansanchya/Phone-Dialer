@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone Dialer</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="dialer">
+            <div class="numbers">
+                <div id="numberDisplay">
+                    <input type='text' id="in">
+                </div>
+            </div>
+            <div class="number">
+                <button onclick="getInput(1)">1<br><span class="alpha">.</span></button>
+                <button onclick="getInput(2)">2<br><span class="alpha">ABC</span></button>
+                <button onclick="getInput(3)">3<br><span class="alpha">DEF</span></button>
+            </div>
+            <div class="number">
+                <button onclick="getInput(4)">4<br><span class="alpha">GHI</span></button>
+                <button onclick="getInput(5)">5<br><span class="alpha">JKL</span></button>
+                <button onclick="getInput(6)">6<br><span class="alpha">MNO</span></button>
+            </div>
+            <div class="number">
+                <button onclick="getInput(7)">7<br><span class="alpha">PQRS</span></button>
+                <button onclick="getInput(8)">8<br><span class="alpha">TUV</span></button>
+                <button onclick="getInput(9)">9<br><span class="alpha">XYZ</span></button>
+            </div>
+            <div class="number">
+                <button onclick="getInput('*')">&lowast;</button>
+                <button onclick="getInput(0)">0</button>
+                <button onclick="getInput('#')">#</button>
+            </div>
+            <div class="number">
+                <button onclick="getInput('+')">+</button>
+                <button class="receiver">&#128222;</button>
+                <button onclick="getInput('c')">&#129044;</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
